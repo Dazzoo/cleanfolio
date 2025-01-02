@@ -1,19 +1,20 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  // homepage: 'https://rjshkhr.github.io/cleanfolio',
+  title: 'Yuri Shushanskyi',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Yurii Shushanskyi',
+  role: 'Full Stack Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+  `Software engineer with 5 years of experience crafting web applications. I transform complex business requirements into elegant code solutions, primarily using Next.js, React and Node.js ecosystems. 
+  Currently engineering vehicle data solutions at CarsXE, where I build web platform and maintain large-scale APIs that process hundred thousands of automotive records. In my free time, I explore emerging technologies and mentor junior developers.`,
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/yurii-shushanskyi-399916160/',
+    github: 'https://github.com/Dazzoo',
   },
 }
 
@@ -65,7 +66,8 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'yuraks46@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { about, contact, header, projects, skills }
+

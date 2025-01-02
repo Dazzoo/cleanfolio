@@ -13,7 +13,9 @@ const Header = () => {
             {title}
           </a>
         ) : (
-          title
+          <a href="/" className='link'>
+            {title}
+          </a>
         )}
       </h3>
       <Navbar />
